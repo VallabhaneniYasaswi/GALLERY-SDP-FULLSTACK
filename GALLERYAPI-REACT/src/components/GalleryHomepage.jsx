@@ -144,7 +144,7 @@ const GalleryHomepage = () => {
                 <input type="password" id="confirmPassword" value={signupData.confirmPassword} onChange={handleSignupChange} />
                 <button onClick={handleSignup}>Register Now</button>
                 <div>
-                  Already have an account?,priyanka
+                  Already have an account?
                   <span className="link" onClick={openSignin}>SIGN IN</span>
                 </div>
                 <div className="responseMsg">{responseMsg}</div>
